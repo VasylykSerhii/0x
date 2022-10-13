@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0x</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/screen.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <navbar class="header__content">
+        <div class="header__logo">
+          <a href="#">
+            <img
+              src="./img/logo.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+          </a>
+        </div>
+        <nav class="header__navigation"></nav>
+        <div class="header__btn">
+          <a href="#" class="btn">Get in Touch</a>
+        </div>
+      </navbar>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="banner__left">
+          <h1 class="banner__title">
+            The liquidity endpoint for DeFi on
+            <span class="banner__animate-words">
+              <span class="banner__animate-word ethereum">Ethereum</span>
+              <span class="banner__animate-word polygon">Polygon</span>
+              <span class="banner__animate-word bsc">BSC</span>
+              <span class="banner__animate-word avalanche">Avalanche</span>
+              <span class="banner__animate-word fantom">Fantom</span>
+              <span class="banner__animate-word celo">Celo</span>
+              <span class="banner__animate-word optimism">Optimism</span>
+            </span>
+          </h1>
+          <p class="banner__desc">
+            0x API is a professional grade liquidity aggregator enabling the
+            future of DeFi applications
+          </p>
+          <div class="banner__btns">
+            <a href="#" class="btn">Start Building</a>
+            <a href="#" class="btn-outline">Try it with Matcha</a>
+          </div>
+        </div>
+        <div class="banner__right">
+          <figure class="banner__figure">
+            <div class="banner__figure-wrap">
+              <img
+                src="./img/chart.svg"
+                onerror="this.onerror=null; this.src='image.png'"
+              />
+            </div>
+          </figure>
+        </div>
+      </section>
+      <section class="info">
+        <div>
+          <h3>
+            Focus on your product.<br />
+            Let 0x find the best prices.
+          </h3>
+          <p>
+            Our smart order routing splits up your transaction across
+            decentralized exchange networks to be filled with the lowest
+            slippage possible.
+          </p>
+        </div>
+        <div>
+          <div class="info__content">
+            <div class="info__content-wrap">
+              <div class="info__content-top">
+                <h5>Sell 1,500 DAI for ETH</h5>
+                <span>Best price!</span>
+              </div>
+              <div class="info__content-bot">
+                <div class="info__list">
+                  <div class="info__item">
+                    <p class="info__item-title">50% Balancer</p>
+                    <div class="info__item-color orange"></div>
+                  </div>
+                  <div class="info__item">
+                    <p class="info__item-title">25% 0x Mesh</p>
+                    <div class="info__item-color turquoise"></div>
+                  </div>
+                  <div class="info__item">
+                    <p class="info__item-title">25% Uniswap</p>
+                    <div class="info__item-color violet"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="networks">
+          <h3>All the popular DEX networks</h3>
+          <p>Don't ever worry about adding new sources, we have it covered.</p>
+          <div class="networks__list">
+            <img
+              src="./img/networks/uniswap.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+            <img
+              src="./img/networks/oasis.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+            <img
+              src="./img/networks/dodo.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+            <img
+              src="./img/networks/balancer.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+            <img
+              src="./img/networks/mooniswap.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+            <img
+              src="./img/networks/curve.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+            <img
+              src="./img/networks/bancor.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+            <img
+              src="./img/networks/mstable.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+            <img
+              src="./img/networks/more.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+          </div>
+        </div>
+        <div class="plus">
+          <figure width="28px" name="plus-sign" color="#00AE99" class="icon">
+            <svg
+              width="27"
+              height="27"
+              viewBox="0 0 27 27"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15.12 0h-3.24v11.88H0v3.24h11.88V27h3.24V15.12H27v-3.24H15.12V0z"
+                fill="#00AE99"
+              ></path>
+            </svg>
+          </figure>
+        </div>
+        <div class="liquidity">
+          <h3>...Plus exclusive 0x liquidity</h3>
+          <div class="liquidity__item">
+            <figure
+              name="market-maker"
+              color="#00AE99"
+              class="liquidity__item-icon"
+            >
+              <svg
+                width="31"
+                height="24"
+                viewBox="0 0 31 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M29.931 14.203v8.221H1v-8.22m28.931 0V1.383H1v12.82m28.931 0H1"
+                  stroke="#00AE99"
+                  stroke-width="2"
+                ></path>
+                <path
+                  d="M20.287 7h-9.643v4.383h9.643V7zM10.644 17.522h9.643v-3.024h-9.643v3.024z"
+                  stroke="#00AE99"
+                  stroke-width="2"
+                ></path>
+              </svg>
+            </figure>
+
+            <div>
+              <h6>Professional Market Makers</h6>
+              <p>
+                Offer competitive pricing through
+                <span><a href="#">0x's RFQ system</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="liquidity__item">
+            <figure name="candles" color="#00AE99" class="liquidity__item-icon">
+              <svg
+                width="31"
+                height="38"
+                viewBox="0 0 31 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.923 9.062v4.244m0 0H1v20.45h2.923m0-20.45h2.923v20.45H3.923m0 0V38M15.03 0v4.226m0 0h-2.922v18.44h2.923m0-18.44h2.923v18.44H15.03m0 0v4.226M26.139 9.062v5.336m0 0h-2.923v12.127h2.923m0-12.127h2.923v12.127h-2.923m0 0v5.337"
+                  stroke="#00AE99"
+                  stroke-width="2"
+                ></path>
+              </svg>
+            </figure>
+            <div>
+              <h6>0x’s Open Orderbook</h6>
+              <p>Enables free limit orders and true peer to peer liquidity</p>
+            </div>
+          </div>
+          <div class="liquidity__item">
+            <figure
+              name="liquidity"
+              color="#00AE99"
+              class="liquidity__item-icon"
+            >
+              <svg
+                width="28"
+                height="38"
+                viewBox="0 0 28 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M26.32 24.227c0 6.992-5.668 12.66-12.66 12.66S1 31.219 1 24.227C1 13.36 13.66 2 13.66 2s12.66 11.361 12.66 22.227z"
+                  stroke="#00AE99"
+                  stroke-width="2"
+                ></path>
+                <path
+                  d="M12.036 22.632l-.883 4.087h5.297l-.883-4.087a3.092 3.092 0 0 0 1.325-2.534 3.093 3.093 0 0 0-3.09-3.09 3.093 3.093 0 0 0-3.09 3.09c0 1.011.503 1.96 1.324 2.534z"
+                  stroke="#00AE99"
+                  stroke-width="2"
+                ></path>
+              </svg>
+            </figure>
+            <div>
+              <h6>Private Liquidity Pools</h6>
+              <p>Access AMM liquidity that you can’t get anywhere else</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="performance">
+        <h1 class="performance__title">Best in class performance</h1>
+        <p class="performance__desc">
+          Better prices, faster response times, and lower revert rates than any
+          other aggregator on the market.
+          <a href="#" class="performance__link"
+            >See the data
+            <svg
+              viewBox="0 0 16 15"
+              width="16"
+              height="15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.484.246l.024 1.411 8.146.053L.817 13.547l.996.996L13.65 2.706l.052 8.146 1.412.024L15.045.315 4.484.246z"
+                fill="rgb(0, 174, 153)"
+              ></path></svg
+          ></a>
+        </p>
+        <div class="performance__items">
+          <div class="performance__items-wrap">
+            <div class="performance__item">
+              <h1>99.9<span>%</span></h1>
+              <h5>Uptime</h5>
+              <p>Available when you need it</p>
+            </div>
+            <div class="performance__item">
+              <h1>2<span>%</span></h1>
+              <h5>Revert Rate</h5>
+              <p>10x lower than competitors</p>
+            </div>
+            <div class="performance__item">
+              <h1>1.5<span>s</span></h1>
+              <h5>Response Time</h5>
+              <p>2.7% faster than competitors</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="token">
+        <div class="token--left">
+          <h3 class="token__title">Swap tokens with a few lines of code</h3>
+          <p class="token__desc">
+            Automatically create orders that can be passed directly through your
+            smart contracts to be settled on-chain.
+          </p>
+          <div class="token__list">
+            <p class="token__item">
+              <svg
+                id="checkmark-icon"
+                width="18"
+                height="13"
+                viewBox="0 0 18 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 1L6 12L1 7"
+                  stroke="#00AE99"
+                  stroke-width="1.4"
+                ></path>
+              </svg>
+              Fetch Quotes
+            </p>
+            <p class="token__item">
+              <svg
+                id="checkmark-icon"
+                width="18"
+                height="13"
+                viewBox="0 0 18 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 1L6 12L1 7"
+                  stroke="#00AE99"
+                  stroke-width="1.4"
+                ></path>
+              </svg>
+              Create Market & Limit Orders
+            </p>
+            <p class="token__item">
+              <svg
+                id="checkmark-icon"
+                width="18"
+                height="13"
+                viewBox="0 0 18 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 1L6 12L1 7"
+                  stroke="#00AE99"
+                  stroke-width="1.4"
+                ></path>
+              </svg>
+              Swap Arbitrary Tokens
+            </p>
+          </div>
+          <a href="#" class="btn">Explore API Docs</a>
+        </div>
+        <div class="token--right">
+          <div class="token__info">
+            <div class="token__info-header">
+              <h6>Get Price Quote</h6>
+              <p class="copy">Copy to clipboard</p>
+            </div>
+            <div class="token__info-curl">
+              <p><span>curl</span> https://api.0x.org/swap/v1/quote</p>
+            </div>
+            <div class="token__info-list">
+              <div class="token__info-list-item">
+                <h4>buyAmount</h4>
+                <p>100</p>
+              </div>
+              <div class="token__info-list-item">
+                <h4>buyToken</h4>
+                <p>DAI</p>
+              </div>
+              <div class="token__info-list-item">
+                <h4>sellToken</h4>
+                <p>USDC</p>
+              </div>
+            </div>
+          </div>
+          <div class="token__code">
+            <pre class="token__code-wrap">
+              <code>
+{
+  <span style="color: rgb(124, 255, 203);">"chainId"</span>: <span style="color: rgb(201, 148, 255);">1</span>,
+  <span style="color: rgb(124, 255, 203);">"price"</span>: <span style="color: rgb(255, 255, 255);">"0.9998881852483944"</span>,
+  <span style="color: rgb(124, 255, 203);">"guaranteedPrice"</span>: <span style="color: rgb(255, 255, 255);">"0.989889303395910456"</span>,
+  <span style="color: rgb(124, 255, 203);">"estimatedPriceImpact"</span>: <span style="color: rgb(255, 255, 255);">"0.0406"</span>,
+  <span style="color: rgb(124, 255, 203);">"to"</span>: <span style="color: rgb(255, 255, 255);">"0xdef1c0ded9bec7f1a1670819833240f027b25eff"</span>,
+  <span style="color: rgb(124, 255, 203);">"data"</span>: <span style="color: rgb(255, 255, 255);">"0x6af479b200000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000005f5e1000000000000000000000000000000000000000000000000055dbf53ad933641e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002ba0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000646b175474e89094c44da98b954eedeac495271d0f000000000000000000000000000000000000000000869584cd000000000000000000000000100000000000000000000000000000000000001100000000000000000000000000000000000000000000003493f32afa63465d5d"</span>,
+  <span style="color: rgb(124, 255, 203);">"value"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>,
+  <span style="color: rgb(124, 255, 203);">"gas"</span>: <span style="color: rgb(255, 255, 255);">"119595"</span>,
+  <span style="color: rgb(124, 255, 203);">"estimatedGas"</span>: <span style="color: rgb(255, 255, 255);">"119595"</span>,
+  <span style="color: rgb(124, 255, 203);">"gasPrice"</span>: <span style="color: rgb(255, 255, 255);">"28000000000"</span>,
+  <span style="color: rgb(124, 255, 203);">"protocolFee"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>,
+  <span style="color: rgb(124, 255, 203);">"minimumProtocolFee"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>,
+  <span style="color: rgb(124, 255, 203);">"buyTokenAddress"</span>: <span style="color: rgb(255, 255, 255);">"0x6b175474e89094c44da98b954eedeac495271d0f"</span>,
+  <span style="color: rgb(124, 255, 203);">"sellTokenAddress"</span>: <span style="color: rgb(255, 255, 255);">"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"</span>,
+  <span style="color: rgb(124, 255, 203);">"buyAmount"</span>: <span style="color: rgb(255, 255, 255);">"99988818524839440000"</span>,
+  <span style="color: rgb(124, 255, 203);">"sellAmount"</span>: <span style="color: rgb(255, 255, 255);">"100000000"</span>,
+  <span style="color: rgb(124, 255, 203);">"sources"</span>: [
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"0x"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Uniswap"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Uniswap_V2"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Curve"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Balancer"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Balancer_V2"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Bancor"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"BancorV3"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"mStable"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"SushiSwap"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Shell"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"MultiHop"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"DODO"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"DODO_V2"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"LiquidityProvider"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"CryptoCom"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Lido"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"MakerPsm"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"KyberDMM"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Component"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Saddle"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Uniswap_V3"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"1"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Curve_V2"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"ShibaSwap"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Synapse"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    },
+    {
+      <span style="color: rgb(124, 255, 203);">"name"</span>: <span style="color: rgb(255, 255, 255);">"Synthetix"</span>,
+      <span style="color: rgb(124, 255, 203);">"proportion"</span>: <span style="color: rgb(255, 255, 255);">"0"</span>
+    }
+  ],
+  <span style="color: rgb(124, 255, 203);">"orders"</span>: [
+    {
+      <span style="color: rgb(124, 255, 203);">"type"</span>: <span style="color: rgb(201, 148, 255);">0</span>,
+      <span style="color: rgb(124, 255, 203);">"source"</span>: <span style="color: rgb(255, 255, 255);">"Uniswap_V3"</span>,
+      <span style="color: rgb(124, 255, 203);">"makerToken"</span>: <span style="color: rgb(255, 255, 255);">"0x6b175474e89094c44da98b954eedeac495271d0f"</span>,
+      <span style="color: rgb(124, 255, 203);">"takerToken"</span>: <span style="color: rgb(255, 255, 255);">"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"</span>,
+      <span style="color: rgb(124, 255, 203);">"makerAmount"</span>: <span style="color: rgb(255, 255, 255);">"99988818524839440000"</span>,
+      <span style="color: rgb(124, 255, 203);">"takerAmount"</span>: <span style="color: rgb(255, 255, 255);">"100000000"</span>,
+      <span style="color: rgb(124, 255, 203);">"fillData"</span>: {
+        <span style="color: rgb(124, 255, 203);">"router"</span>: <span style="color: rgb(255, 255, 255);">"0xe592427a0aece92de3edee1f18e0157c05861564"</span>,
+        <span style="color: rgb(124, 255, 203);">"tokenAddressPath"</span>: [
+          <span style="color: rgb(255, 255, 255);">"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"</span>,
+          <span style="color: rgb(255, 255, 255);">"0x6b175474e89094c44da98b954eedeac495271d0f"</span>
+        ],
+        <span style="color: rgb(124, 255, 203);">"uniswapPath"</span>: <span style="color: rgb(255, 255, 255);">"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000646b175474e89094c44da98b954eedeac495271d0f"</span>,
+        <span style="color: rgb(124, 255, 203);">"gasUsed"</span>: <span style="color: rgb(201, 148, 255);">59595</span>
+      },
+      <span style="color: rgb(124, 255, 203);">"fill"</span>: {
+        <span style="color: rgb(124, 255, 203);">"input"</span>: <span style="color: rgb(255, 255, 255);">"100000000"</span>,
+        <span style="color: rgb(124, 255, 203);">"output"</span>: <span style="color: rgb(255, 255, 255);">"99988818524839440000"</span>,
+        <span style="color: rgb(124, 255, 203);">"adjustedOutput"</span>: <span style="color: rgb(255, 255, 255);">"96602508400559569832"</span>,
+        <span style="color: rgb(124, 255, 203);">"gas"</span>: <span style="color: rgb(201, 148, 255);">93595</span>
+      },
+      <span style="color: rgb(124, 255, 203);">"sourcePathId"</span>: <span style="color: rgb(255, 255, 255);">"0x01370b9ed53a5aa706ed1145872e88412017f7497c0fa3dceb46f27e8a14f8a3"</span>
+    }
+  ],
+  <span style="color: rgb(124, 255, 203);">"allowanceTarget"</span>: <span style="color: rgb(255, 255, 255);">"0xdef1c0ded9bec7f1a1670819833240f027b25eff"</span>,
+  <span style="color: rgb(124, 255, 203);">"decodedUniqueId"</span>: <span style="color: rgb(255, 255, 255);">"3493f32afa-1665555805"</span>,
+  <span style="color: rgb(124, 255, 203);">"sellTokenToEthRate"</span>: <span style="color: rgb(255, 255, 255);">"1291.78016"</span>,
+  <span style="color: rgb(124, 255, 203);">"buyTokenToEthRate"</span>: <span style="color: rgb(255, 255, 255);">"1292.1592744880565078"</span>,
+  <span style="color: rgb(124, 255, 203);">"expectedSlippage"</span>: <span style="color: rgb(170, 87, 60);">null</span>
+}
+            </code>
+            </pre>
+          </div>
+        </div>
+      </section>
+      <section class="slider">
+        <div class="slider__slide">
+          <div class="slider__content">
+            <div class="slider__content-wrap">
+              <h3 class="slider__title">Matcha <span>by 0x</span></h3>
+              <p class="slider__desc">
+                Matcha is the global search engine for liquidity and markets
+                that enables users to trade tokens at the best price through a
+                world class interface.
+              </p>
+            </div>
+            <a
+              href="https://matcha.xyz/"
+              target="_blank"
+              class="btn slider__btn"
+              >Trade on Matcha</a
+            >
+          </div>
+          <div class="slider__icon-wrap">
+            <img
+              src="./img/icons/matcha.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+          </div>
+        </div>
+        <div class="slider__slide">
+          <div class="slider__content">
+            <div class="slider__content-wrap">
+              <h3 class="slider__title">MetaMask</h3>
+              <p class="slider__desc">
+                MetaMask is your gateway to Web3. Buy, send and swap tokens
+                globally and interact with dapps at lightning speed. Trusted by
+                over 1MM users worldwide.
+              </p>
+            </div>
+            <a
+              href="https://metamask.io/"
+              target="_blank"
+              class="btn slider__btn"
+              >Visit MetaMask</a
+            >
+          </div>
+          <div class="slider__icon-wrap">
+            <img
+              src="./img/icons/metamask.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+          </div>
+        </div>
+        <div class="slider__slide">
+          <div class="slider__content">
+            <div class="slider__content-wrap">
+              <h3 class="slider__title">ShapeShift</h3>
+              <p class="slider__desc">
+                Since 2014, ShapeShift has been pioneering self-custody for
+                digital asset trading. The company's new web and mobile platform
+                allows users to safely buy, hold, and trade digital assets.
+              </p>
+            </div>
+            <a
+              href="https://shapeshift.com/"
+              target="_blank"
+              class="btn slider__btn"
+              >Visit ShapeShift</a
+            >
+          </div>
+          <div class="slider__icon-wrap">
+            <img
+              src="./img/icons/shape_shift.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+          </div>
+        </div>
+        <div class="slider__slide">
+          <div class="slider__content">
+            <div class="slider__content-wrap">
+              <h3 class="slider__title">DeFi Saver</h3>
+              <p class="slider__desc">
+                DeFi Saver is a portfolio management app for lending protocols
+                such as MakerDAO, Compound and Aave with advanced and automated
+                leverage management features.
+              </p>
+            </div>
+            <a
+              href="https://defisaver.com/"
+              target="_blank"
+              class="btn slider__btn"
+              >Visit DeFi Saver</a
+            >
+          </div>
+          <div class="slider__icon-wrap">
+            <img
+              src="./img/icons/defi_saver.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+          </div>
+        </div>
+        <div class="slider__slide">
+          <div class="slider__content">
+            <div class="slider__content-wrap">
+              <h3 class="slider__title">Rari</h3>
+              <p class="slider__desc">
+                Rari Capital is a non-custodial DeFi robo-advisor that uses the
+                0x API to swap between stablecoins to optimize for the highest
+                yield.
+              </p>
+            </div>
+            <a
+              href="https://rari.capital/"
+              target="_blank"
+              class="btn slider__btn"
+              >Visit Rari</a
+            >
+          </div>
+          <div class="slider__icon-wrap">
+            <img
+              src="./img/icons/rari.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+          </div>
+        </div>
+        <div class="slider__slide">
+          <div class="slider__content">
+            <div class="slider__content-wrap">
+              <h3 class="slider__title">Prysm</h3>
+              <p class="slider__desc">
+                Prysm is a next generation social trading network. Prysm helps
+                traders discover and execute their next trade while helping
+                Creators monetize trade ideas and other products.
+              </p>
+            </div>
+            <a href="https://prysm.xyz/" target="_blank" class="btn slider__btn"
+              >Visit Prysm</a
+            >
+          </div>
+          <div class="slider__icon-wrap">
+            <img
+              src="./img/icons/prysm.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+          </div>
+        </div>
+        <div class="slider__slide active">
+          <div class="slider__content">
+            <div class="slider__content-wrap">
+              <h3 class="slider__title">Zapper</h3>
+              <p class="slider__desc">
+                Zapper is an asset management platform that allows users to
+                deploy capital across multiple DeFi protocols with one click.
+              </p>
+            </div>
+            <a href="https://zapper.fi/" target="_blank" class="btn slider__btn"
+              >Visit Zapper</a
+            >
+          </div>
+          <div class="slider__icon-wrap">
+            <img
+              src="./img/icons/zapper.svg"
+              onerror="this.onerror=null; this.src='image.png'"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="tabs">
+        <div class="tab active">
+          <img
+            src="./img/icons/logo/matcha.svg"
+            onerror="this.onerror=null; this.src='image.png'"
+          />
+        </div>
+        <div class="tab">
+          <img
+            src="./img/icons/logo/metamask.svg"
+            onerror="this.onerror=null; this.src='image.png'"
+          />
+        </div>
+        <div class="tab">
+          <img
+            src="./img/icons/logo/shape_shift.svg"
+            onerror="this.onerror=null; this.src='image.png'"
+          />
+        </div>
+        <div class="tab">
+          <img
+            src="./img/icons/logo/defi_saver.svg"
+            onerror="this.onerror=null; this.src='image.png'"
+          />
+        </div>
+        <div class="tab">
+          <img
+            src="./img/icons/logo/rari.svg"
+            onerror="this.onerror=null; this.src='image.png'"
+          />
+        </div>
+        <div class="tab">
+          <img
+            src="./img/icons/logo/prysm.svg"
+            onerror="this.onerror=null; this.src='image.png'"
+          />
+        </div>
+        <div class="tab">
+          <img
+            src="./img/icons/logo/zapper.svg"
+            onerror="this.onerror=null; this.src='image.png'"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__feedback">
+          <svg
+            width="81"
+            height="40"
+            viewBox="0 0 81 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.402 25.28l3.105-3.212-3.86-5.209-4.915-6.954A19.904 19.904 0 0 0 0 20c0 6.1 2.732 11.562 7.04 15.23l6.239-4.408a12.796 12.796 0 0 1-4.877-5.541zM14.72 8.402l3.212 3.105 5.209-3.86 6.954-4.915A19.904 19.904 0 0 0 20 0C13.9 0 8.438 2.732 4.77 7.04l4.408 6.239a12.795 12.795 0 0 1 5.541-4.877zm13.773 9.53l3.86 5.209 4.915 6.954A19.904 19.904 0 0 0 40 20c0-6.1-2.732-11.562-7.04-15.23l-6.24 4.408a12.796 12.796 0 0 1 4.877 5.541l-3.105 3.213zM35.23 32.96l-4.408-6.239a12.795 12.795 0 0 1-5.541 4.877l-3.213-3.105-5.209 3.86-6.954 4.915A19.904 19.904 0 0 0 20 40c6.1 0 11.562-2.732 15.23-7.04z"
+              fill="#fff"
+            ></path>
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M51.726 19.689c0-6.471 2.704-9.689 6.912-9.689 4.19 0 6.947 3.27 6.947 9.689 0 6.418-2.758 9.671-6.947 9.671-4.19 0-6.912-3.253-6.912-9.671zm6.894-7.59c-3.04 0-4.543 2.815-4.543 7.607 0 2.256.336 4.005.972 5.282l5.975-12.085c-.69-.542-1.485-.804-2.404-.804zm-2.351 14.428c.672.507 1.45.77 2.369.77 3.04 0 4.578-2.834 4.578-7.59 0-2.204-.318-3.936-.972-5.247l-5.975 12.067zm24.377-10.93l-3.853 6.47L81 29.027h-2.581l-3.377-5.63h-.954l-3.447 5.63h-2.51l4.224-6.872-3.8-6.559h2.44l3.11 5.334h.973l3.182-5.334h2.386z"
+              fill="#fff"
+            ></path>
+          </svg>
+          <form class="footer__form">
+            <input type="text" class="input" placeholder="Name" required />
+            <input
+              type="text"
+              class="input"
+              placeholder="Email Address"
+              required
+            />
+            <button>
+              <svg
+                width="22"
+                height="17"
+                xmlns="http://www.w3.org/2000/svg"
+                class="sc-dwcupg kztjOV"
+              >
+                <path
+                  d="M13.066 0l-1.068 1.147 6.232 6.557H0v1.592h18.23l-6.232 6.557L13.066 17l8.08-8.5-8.08-8.5z"
+                  fill="#fff"
+                ></path>
+              </svg>
+            </button>
+          </form>
+          <p class="footer__infoForm">
+            Subscribe to our blog for project and ecosystem updates
+          </p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__links-wrap">
+            <div class="footer__links-column">
+              <h3>Developers</h3>
+              <ul>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Protocol Spec</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Stack Exchange</a></li>
+              </ul>
+            </div>
+            <div class="footer__links-column">
+              <h3>About</h3>
+              <ul>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Mission</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+            <div class="footer__links-column">
+              <h3>Community</h3>
+              <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Discord Chat</a></li>
+                <li><a href="#">Reddit</a></li>
+                <li><a href="#">Forum</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
