@@ -54,7 +54,7 @@ window.addEventListener("DOMContentLoaded", function () {
   $(".copy").click(function () {
     navigator.clipboard
       .writeText(
-        "https://api.0x.org/swap/v1/quote?sellAmount=100000000&buyToken=DAI&sellToken=USDC"
+        "https://api.swapgate.io/trading/ethusd?sellAmount=100000000&buyToken=DAI&sellToken=USDC"
       )
       .then(function () {
         $(".copy").html("Copied!");
